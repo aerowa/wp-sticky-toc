@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Floating Collapsible TOC
+Plugin Name: StickyToC
 Plugin URI: https://github.com/aerowa/wp-sticky-toc
 Description: Plugin that allows sticky/floating Table of Contents. For usage, see the readme in the Plugin Link
 Version: 0.1.3
