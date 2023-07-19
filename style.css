@@ -1,0 +1,73 @@
+#floating-toc {
+    position: sticky;
+    top: 10px;
+    right: 10px;
+    width: 500px;
+}
+
+#floating-toc .hamburger-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#floating-toc .hamburger-button span {
+    display: block;
+    background: black;
+    height: 2px;
+    width: 100%;
+    position: relative;
+    margin: 7px 0;
+}
+
+#floating-toc label:hover span {
+    background: #666;
+}
+
+#floating-toc nav {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+#floating-toc nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#floating-toc nav ul a {
+    display: block;
+    padding: 2px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+#floating-toc nav ul a:hover {
+    background: #f7f7f7;
+    color: #FF3254;
+    font-weight: bold;
+}
+
+#toggle-button:checked ~ nav {
+    height: 0;
+}
+
+/*ul li .arrow-red-toc {
+  color: #FF3254;
+}
+
+.arrow-red-toc {
+  color: #FF3254;
+}*/
+
+.arrow-link::before {
+  content: "→";
+  color: #FF3254;
+}
