@@ -6,7 +6,7 @@ The ToC will follow your `<head>` and `<footer>` when scrolling (start/stop).
 
 Instructions:
 You will probably need some CSS experience if you want to modify the layout.
-In the `floating-toc.php` file, you'll find this line:
+In the `stickytoc.php` file, you'll find this line:
 ```$allowed_page_ids = array(PAGEID);``` which conviniently marked by a comment instructing you regarding it.
 
 Change it into your page/post's ID and separate by comma, example:
